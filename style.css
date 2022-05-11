@@ -1,0 +1,284 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    height: 1080px;
+}
+
+.box {
+    width: 1300px;
+    height: 700px;
+    display: flex;
+    margin: auto;
+    background-image: url(./PICTURE/BACK3.jpg);
+    background-repeat: no-repeat;
+    background-size: 1300px 700px;
+    border-radius: 10px;
+}
+
+.container {
+    width: 1053px;
+    height: 581px;
+    background-image: url(./PICTURE/lacay.jpg);
+    display: flex;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: 1300px 700px;
+    /* animation */
+    visibility: visible;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-name: bounceIn;
+}
+
+.content {
+    width: 470px;
+    height: 581px;
+    background-color: rgb(255, 255, 255);
+}
+
+ul {
+    margin-top: 32px;
+    margin-left: 100px;
+}
+
+li {
+    color: white;
+    display: inline-block;
+    font-size: 10px;
+    margin-left: 40px;
+}
+
+li:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.heading {
+    position: relative;
+}
+
+.button {
+    position: absolute;
+    bottom: 40px;
+    right: 30px;
+}
+
+.button-style {
+    padding: 5px;
+    height: 30px;
+    width: 75px;
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+.logo {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.aromalogo {
+    height: 481px;
+    width: 583px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.but1 {
+    background-color: transparent;
+    color: white;
+    border-color: rgba(255, 255, 255, 0.4);
+    border-radius: 2px;
+    border-style: solid;
+}
+
+.but2 {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-color: transparent;
+    color: white;
+    border-radius: 2px;
+    border-style: solid;
+}
+
+.hed {
+    color: rgb(110, 106, 106);
+    font-size: 25px;
+}
+
+.cont1 {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+span {
+    color: rgb(195, 195, 195);
+}
+
+.c1 {
+    margin-top: 59px;
+    font-size: 41px;
+    font-weight: 600;
+}
+
+.c2 {
+    margin-top: 20px;
+    font-size: 15px;
+    color: rgb(195, 195, 195);
+}
+
+.in1 {
+    margin-top: 50px;
+    height: 59px;
+    width: 329px;
+    border: 1px solid rgb(206, 199, 199);
+    padding-left: 9px;
+}
+
+.in2 {
+    margin-top: 0px;
+    height: 59px;
+    width: 329px;
+    border: 1px solid rgb(206, 199, 199);
+    padding-left: 9px;
+}
+
+.checkbox {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.check1 {
+    margin-left: 10px;
+    font-size: 11px;
+    color: rgb(179, 179, 179);
+}
+
+.check2 {
+    margin-left: 141px;
+    font-size: 11px;
+    text-decoration: none;
+    color: black;
+}
+
+.buttonstyle2 {
+    padding: 10px 24px;
+    width: 109px;
+    margin-top: 20px;
+}
+
+.but3 {
+    background-color: rgb(0, 0, 0);
+    border-color: transparent;
+    color: white;
+    border-radius: 3px;
+    border-style: solid;
+}
+
+.but4 {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(179, 179, 179);
+    color: rgb(179, 179, 179);
+    border-radius: 3px;
+    border-style: solid;
+    margin-left: 10px;
+}
+
+.but1:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-color: transparent;
+    color: white;
+    border-radius: 2px;
+    border-style: solid;
+}
+
+.but2:hover {
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border-color: rgba(255, 255, 255, 0.4);
+    border-radius: 2px;
+    border-style: solid;
+}
+
+.but3:hover {
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(179, 179, 179);
+    color: rgb(179, 179, 179);
+    border-radius: 3px;
+    border-style: solid;
+}
+
+.but4:hover {
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    border-color: transparent;
+    color: white;
+    border-radius: 3px;
+    border-style: solid;
+}
+
+.c3 {
+    margin-top: 35px;
+    font-size: 11px;
+    color: rgb(179, 179, 179);
+}
+
+.c4 {
+    margin-top: 4px;
+    font-size: 11px;
+}
+
+.container {
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.logo2 {
+    position: absolute;
+    border-radius: 50%;
+    width: 60px;
+    top: 389px;
+    left: 440px;
+}
+
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(.3);
+        -ms-transform: scale(.3);
+        transform: scale(.3);
+    }
+    50% {
+        opacity: 1;
+        -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+    70% {
+        -webkit-transform: scale(.9);
+        -ms-transform: scale(.9);
+        transform: scale(.9);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+}
